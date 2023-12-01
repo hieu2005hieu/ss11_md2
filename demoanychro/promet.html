@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- promise(lời hứa)
+    sinh ra ở Es6 -->
+    <script>
+        let promise=new Promise((resolve,reject)=>{
+            //   resolve("thanh cong") thanh cong chay vao then
+            //   reject("that bai") that bai chay vao catch
+        })
+        promise
+        .then((ser)=>{
+            console.log("sssss",ser);
+        })
+        .catch(err=>console.log(err))
+    </script>
+</body>
+</html>

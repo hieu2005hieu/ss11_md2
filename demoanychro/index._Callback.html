@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1-la ham 
+    2- được chuyền làm đôis só của hàm khác
+3- Vấn đề:callback hell -->
+    <script>
+        let sdt;
+        function xinSdt(callback) {
+            console.log("hieugoi cho anh");
+            setTimeout(()=>{
+                sdt=9999999
+                callback(sdt)
+            },3000);
+        }
+        xinSdt(goiDienKhiCoSo)
+        function goiDienKhiCoSo(sdt) {
+            console.log(`goi die cho panh ${sdt}`);
+        }
+    </script>
+</body>
+</html>

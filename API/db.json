@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "hieuthua3tran",
+      "password": "123456789"
+    },
+    {
+      "name": "34567",
+      "email": "admin@gmail.com",
+      "password": "aaaaaaa",
+      "id": 2
+    },
+    {
+      "name": "aaaa",
+      "email": "tgdd.hieu20a05@gmail.com",
+      "password": "aaaaaa",
+      "id": 3
+    },
+    {
+      "name": "aaaa",
+      "email": "tgdd.hieu20e05@gmail.com",
+      "password": "aaaaaa",
+      "id": 4
+    },
+    {
+      "name": "aaaa",
+      "email": "tgdd.hieu2005@gmail.com",
+      "password": "aaaa",
+      "id": 5
+    }
+  ],
+  "products":[
+    {
+      "id":111,
+      "name":"iphone",
+      "product":[
+        {
+          "id":123,
+          "name":"1phone16",
+          "price":5000
+        }
+      ]
+    },
+    {
+      "id":222,
+      "name":"samsung",
+      "product":[
+        {
+          "id":211,
+          "name":"samsung1280",
+          "price":15000
+        },
+        {
+          "id":212,
+          "name":"simsamsung1281",
+          "price":25000
+        }
+      ]
+    }
+  ]
+}
